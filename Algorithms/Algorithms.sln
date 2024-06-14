@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSplit", "TextSplit\TextSplit.csproj", "{B4B0B4EF-F1BC-4C90-B008-CF9877613240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharFraquencyAnalysis", "CharFraquencyAnalysis\CharFraquencyAnalysis.csproj", "{62E50853-5DCC-4FDF-9550-018621116A3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharFraquencyAnalysis", "CharFraquencyAnalysis\CharFraquencyAnalysis.csproj", "{62E50853-5DCC-4FDF-9550-018621116A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{E76B605B-DE11-4E2E-9567-300CEA98F874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{62E50853-5DCC-4FDF-9550-018621116A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E50853-5DCC-4FDF-9550-018621116A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E50853-5DCC-4FDF-9550-018621116A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76B605B-DE11-4E2E-9567-300CEA98F874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76B605B-DE11-4E2E-9567-300CEA98F874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76B605B-DE11-4E2E-9567-300CEA98F874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76B605B-DE11-4E2E-9567-300CEA98F874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
