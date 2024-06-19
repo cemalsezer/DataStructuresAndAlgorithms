@@ -5,7 +5,7 @@ namespace FibonacciSeries
     {
         static void Main(string[] args)
         {
-            FindFibonacciSeries(10);
+            FindFibonacciSeries(5);
         }
 
         private static void FindFibonacciSeries(int targetNum)
@@ -20,7 +20,9 @@ namespace FibonacciSeries
                 totalNum = firstNum + secondNum;  
                 firstNum = secondNum;
                 secondNum = totalNum;
+              
             }
+            Console.WriteLine($"\nlast two nums sum:{firstNum}");
         }
     }
 }
