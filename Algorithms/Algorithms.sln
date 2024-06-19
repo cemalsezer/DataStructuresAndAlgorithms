@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharFraquencyAnalysis", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{E76B605B-DE11-4E2E-9567-300CEA98F874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{622E82DC-BB00-4BC4-B216-C0B452486C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{622E82DC-BB00-4BC4-B216-C0B452486C00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromicSubString", "PalindromicSubString\PalindromicSubString.csproj", "{900D95BA-0C70-49CB-894B-3587EC552645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{57B0F557-99A5-4C50-84C4-885D3C28E3A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{622E82DC-BB00-4BC4-B216-C0B452486C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{622E82DC-BB00-4BC4-B216-C0B452486C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{622E82DC-BB00-4BC4-B216-C0B452486C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900D95BA-0C70-49CB-894B-3587EC552645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900D95BA-0C70-49CB-894B-3587EC552645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900D95BA-0C70-49CB-894B-3587EC552645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900D95BA-0C70-49CB-894B-3587EC552645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B0F557-99A5-4C50-84C4-885D3C28E3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B0F557-99A5-4C50-84C4-885D3C28E3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B0F557-99A5-4C50-84C4-885D3C28E3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B0F557-99A5-4C50-84C4-885D3C28E3A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
