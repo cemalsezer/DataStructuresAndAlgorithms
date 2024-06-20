@@ -20,7 +20,6 @@ namespace FibonacciSeries
                 totalNum = firstNum + secondNum;  
                 firstNum = secondNum;
                 secondNum = totalNum;
-              
             }
             Console.WriteLine($"\nlast two nums sum:{firstNum}");
         }
