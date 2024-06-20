@@ -22,22 +22,22 @@ namespace DataStructures
             }
 
 
-            nums.CopyTo(numbers, 0);
-            Array.Sort(nums);
-            Array.Sort(numbers);
-            Array.Clear(numbers, 2, 2);
-            Console.WriteLine(Array.IndexOf(nums, 55));
-            arr.Sort();
+            //nums.CopyTo(numbers, 0);
+            //Array.Sort(nums);
+            //Array.Sort(numbers);
+            //Array.Clear(numbers, 2, 2);
+            //Console.WriteLine(Array.IndexOf(nums,55));
+            //arr.Sort();
 
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine($"nums[{i}] = " +
-                    $"{nums[i],3} -" +
-                    $"numberss[{i}] = " +
-                    $"{numbers.GetValue(i),3}" +
-                    $"arr[{i}] = " +
-                    $"{arr[i],3}");
-            }
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine($"nums[{i}] = " +
+            //        $"{nums[i],3} -" +
+            //        $"numberss[{i}] = " +
+            //        $"{numbers.GetValue(i),3}" +
+            //        $"arr[{i}] = " +
+            //        $"{arr[i],3}");
+            //}
         }
     }
 }

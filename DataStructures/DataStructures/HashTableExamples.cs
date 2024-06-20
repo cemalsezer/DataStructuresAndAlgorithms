@@ -21,6 +21,7 @@ namespace DataStructures
         {
             //defined
             var cities = new Hashtable();
+            
 
             //add
             cities.Add(35, "izmir");
