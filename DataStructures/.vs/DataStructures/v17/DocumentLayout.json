@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|c:\\users\\cemal\\desktop\\pr\\datastructuresandalgorithms\\datastructures\\datastructures\\stackexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\stackexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|c:\\users\\cemal\\desktop\\pr\\datastructuresandalgorithms\\datastructures\\datastructures\\hashsetappexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\hashsetappexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|c:\\users\\cemal\\desktop\\pr\\datastructuresandalgorithms\\datastructures\\datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|c:\\users\\cemal\\desktop\\pr\\datastructuresandalgorithms\\datastructures\\datastructures\\hashtableexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\hashtableexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|c:\\users\\cemal\\desktop\\pr\\datastructuresandalgorithms\\datastructures\\datastructures\\sortedlistexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\sortedlistexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|c:\\users\\cemal\\desktop\\pr\\datastructuresandalgorithms\\datastructures\\datastructures\\sortedsetappexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F748F9C-E53F-4852-A003-A07106E27D4D}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\sortedsetappexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StackExamples.cs",
-              "DocumentMoniker": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\StackExamples.cs",
-              "RelativeDocumentMoniker": "DataStructures\\StackExamples.cs",
-              "ToolTip": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\StackExamples.cs",
-              "RelativeToolTip": "DataStructures\\StackExamples.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAAbAAAA",
+              "Title": "HashSetAppExample.cs",
+              "DocumentMoniker": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\HashSetAppExample.cs",
+              "RelativeDocumentMoniker": "DataStructures\\HashSetAppExample.cs",
+              "ToolTip": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\HashSetAppExample.cs",
+              "RelativeToolTip": "DataStructures\\HashSetAppExample.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T14:19:33.338Z",
+              "WhenOpened": "2024-06-22T12:40:49.145Z",
               "EditorCaption": ""
             },
             {
@@ -53,34 +49,23 @@
               "RelativeDocumentMoniker": "DataStructures\\Program.cs",
               "ToolTip": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\Program.cs",
               "RelativeToolTip": "DataStructures\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:21:22.941Z",
+              "WhenOpened": "2024-06-22T11:41:15.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SortedListExamples.cs",
-              "DocumentMoniker": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\SortedListExamples.cs",
-              "RelativeDocumentMoniker": "DataStructures\\SortedListExamples.cs",
-              "ToolTip": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\SortedListExamples.cs",
-              "RelativeToolTip": "DataStructures\\SortedListExamples.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:29:49.691Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HashTableExamples.cs",
-              "DocumentMoniker": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\HashTableExamples.cs",
-              "RelativeDocumentMoniker": "DataStructures\\HashTableExamples.cs",
-              "ToolTip": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\HashTableExamples.cs",
-              "RelativeToolTip": "DataStructures\\HashTableExamples.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "SortedSetAppExample.cs",
+              "DocumentMoniker": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\SortedSetAppExample.cs",
+              "RelativeDocumentMoniker": "DataStructures\\SortedSetAppExample.cs",
+              "ToolTip": "C:\\Users\\cemal\\desktop\\PR\\DataStructuresAndAlgorithms\\DataStructures\\DataStructures\\SortedSetAppExample.cs",
+              "RelativeToolTip": "DataStructures\\SortedSetAppExample.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:27:56.904Z"
+              "WhenOpened": "2024-06-22T11:35:45.805Z",
+              "EditorCaption": ""
             }
           ]
         }
