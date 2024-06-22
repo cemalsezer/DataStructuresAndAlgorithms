@@ -9,7 +9,14 @@ namespace DataStructures
             //ArrayExamples.ArrayPractice();
             //ListApplicationExample.CityListApplicationExample();
             //SortedListExamples.BookContents();
-            StackExamples.StepExamples();
+            //StackExamples.StepExamples();
+            //QueueApplicationExample.QueueApp();
+            //LinkedListAppExample.Cities();
+            //DictioanryAppExample.Payment();
+            //SortedDictionaryAppExample.BookIndexApp();
+            //SortedSetAppExample.UniqueNums();
+            //SortedSetAppExample.SortedSetApp();
+            HashSetAppExample.CharAlphabetApp();
         }
     }
 }
