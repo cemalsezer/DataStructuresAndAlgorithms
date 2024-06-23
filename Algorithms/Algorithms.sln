@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromicSubString", "Pal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{57B0F557-99A5-4C50-84C4-885D3C28E3A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialValue", "FactorialValue\FactorialValue.csproj", "{53A3BF5A-B069-4934-8311-E19C1F3B4400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialValue", "FactorialValue\FactorialValue.csproj", "{53A3BF5A-B069-4934-8311-E19C1F3B4400}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumSquareOfArray", "SumSquareOfArray\SumSquareOfArray.csproj", "{733E1C85-43E4-4D31-8DA0-F2E363D643E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{53A3BF5A-B069-4934-8311-E19C1F3B4400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A3BF5A-B069-4934-8311-E19C1F3B4400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A3BF5A-B069-4934-8311-E19C1F3B4400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733E1C85-43E4-4D31-8DA0-F2E363D643E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733E1C85-43E4-4D31-8DA0-F2E363D643E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733E1C85-43E4-4D31-8DA0-F2E363D643E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733E1C85-43E4-4D31-8DA0-F2E363D643E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
