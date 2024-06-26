@@ -12,7 +12,7 @@ namespace SearchArray
       
              
              */
-            int[] x = {1, 1, 2, 2, 3,4};
+            int[] x = {1, 1, 2, 2, 3, 4, 4, 5};
 
             SearchArray(x);
 
@@ -33,15 +33,18 @@ namespace SearchArray
                     dict.Add(num,1);
                 }
             }
+
+            var uniqueKeys = new List<int>();
             foreach(var x in dict)
             {
                 if (x.Value == 1)
                 {
-                    Console.Write(x.Key+ " ");
+                    uniqueKeys.Add(x.Key);
                 }
             }
+            Console.WriteLine(string.Join(", ", uniqueKeys));
 
-              
+
         }
     }
 }
