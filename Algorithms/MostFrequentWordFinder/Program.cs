@@ -34,10 +34,10 @@ namespace MostFrequentWordFinder
             {
                 if (item.Value > maxCount)
                 {
-                    mostFrequentWord = item.Key;
+                    mostFrequentWord =  item.Key ;
                     maxCount = item.Value;
                 }
-                else if(item.Value == maxCount)
+                else if (item.Value == maxCount)
                 {
                     mostFrequentWord = mostFrequentWord + " " + item.Key;
                 }
