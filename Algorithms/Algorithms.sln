@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MostFrequentWordFinder", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrisWriter", "MatrisWriter\MatrisWriter.csproj", "{91F8D738-0489-4280-AA04-E00FF50D1DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSum", "MiniMaxSum\MiniMaxSum.csproj", "{B29E2101-58C0-4D97-871C-D32C65F28DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniMaxSum", "MiniMaxSum\MiniMaxSum.csproj", "{B29E2101-58C0-4D97-871C-D32C65F28DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File", "File\File.csproj", "{A998D235-BE24-424E-A8FD-0D3E15297A0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{B29E2101-58C0-4D97-871C-D32C65F28DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B29E2101-58C0-4D97-871C-D32C65F28DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B29E2101-58C0-4D97-871C-D32C65F28DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A998D235-BE24-424E-A8FD-0D3E15297A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A998D235-BE24-424E-A8FD-0D3E15297A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A998D235-BE24-424E-A8FD-0D3E15297A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A998D235-BE24-424E-A8FD-0D3E15297A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
