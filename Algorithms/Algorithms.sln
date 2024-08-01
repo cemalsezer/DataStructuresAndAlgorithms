@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniMaxSum", "MiniMaxSum\Mi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File", "File\File.csproj", "{A998D235-BE24-424E-A8FD-0D3E15297A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrequencyOfNumber", "FrequencyOfNumber\FrequencyOfNumber.csproj", "{95CB6A77-EB51-4801-84CE-18D784E8EDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrequencyOfNumber", "FrequencyOfNumber\FrequencyOfNumber.csproj", "{95CB6A77-EB51-4801-84CE-18D784E8EDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateCharacters", "FindDuplicateCharacters\FindDuplicateCharacters.csproj", "{A8843B75-6EB3-40EC-BEAE-61728DBC9B33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{95CB6A77-EB51-4801-84CE-18D784E8EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CB6A77-EB51-4801-84CE-18D784E8EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CB6A77-EB51-4801-84CE-18D784E8EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8843B75-6EB3-40EC-BEAE-61728DBC9B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8843B75-6EB3-40EC-BEAE-61728DBC9B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8843B75-6EB3-40EC-BEAE-61728DBC9B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8843B75-6EB3-40EC-BEAE-61728DBC9B33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
