@@ -18,6 +18,21 @@ namespace DataStructures.Array
             InnerList = new T[2];
             Count=0;
         }
+
+        public Array(params T[] initial)
+        {
+            InnerList = new T[initial.Length];
+            Count=0;
+            foreach(var  item in initial)
+                Add(item);
+        }
+        public Array(IEnumerable<T> collection)
+        {
+            InnerList = new T[collection.ToArray().Length];
+            Count = 0;
+            foreach(var item in collection) 
+                Add(item);
+        }
         public void Add(T item)
         {
             if(InnerList.Length == Count)
@@ -26,6 +41,32 @@ namespace DataStructures.Array
             }
             InnerList[Count] = item;
             Count++;
+        }
+
+
+        public T Remove()
+        {
+            if(Count==0)
+            {
+                throw new Exception("There is no more item to be removed.");
+            }
+             if(InnerList.Length/4==Count)
+            {
+                HaflArray();
+            }
+            var temp = InnerList[Count-1];
+            if(Count>0)
+                Count--;
+            return temp;
+        }
+        private void HaflArray()
+        {
+            if(InnerList.Length>2)
+            {
+                var temp = new T[InnerList.Length / 2];
+                System.Array.Copy(InnerList,temp,InnerList.Length / 4);
+                InnerList = temp;
+            }
         }
 
         private void DoubleArray()
@@ -42,12 +83,12 @@ namespace DataStructures.Array
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return InnerList.Select(x => x).GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return  GetEnumerator();
         }
     }
 }
