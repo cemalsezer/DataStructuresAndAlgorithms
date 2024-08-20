@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using DataStructures.LinkedList.SinglyLinkedList;
+using System.Collections;
 
 namespace Apps
 {
@@ -6,28 +7,16 @@ namespace Apps
     {
         static void Main(string[] args)
         {
-            var arr = new DataStructures.Array.Array<int>();
+            var linkedList = new SinglyLinkedList<int>();
+            linkedList.AddFirst(1);
+            linkedList.AddFirst(2);
+            linkedList.AddFirst(3);
 
-            for (int i = 0; i < 8; i++)
-            {
-                arr.Add(i + 1);
-                Console.WriteLine($"{i + 1} has been added to array.");
-                Console.WriteLine($"Count: {arr.Count} / Capacity:{arr.Capacity}");
-            }
-            Console.WriteLine();
+            linkedList.AddLast(4);
+            linkedList.AddLast(5);
 
-            for (int i=arr.Count;i >=1; i--)
-            {
-                Console.WriteLine($"{arr.Remove()} has been removed rom the array.");
-                Console.WriteLine($"Count: {arr.Count} / Capacity:{arr.Capacity}");
-            }
-
-            Console.WriteLine();
-
-            foreach (var item in arr)
-            {
-                Console.WriteLine(item);
-            }
+            linkedList.AddAfter(linkedList.Head.Next, 32);
+            linkedList.AddAfter(linkedList.Head.Next.Next, 33);
         }
     }
 }
