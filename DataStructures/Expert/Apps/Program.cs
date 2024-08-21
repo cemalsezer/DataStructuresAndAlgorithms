@@ -1,4 +1,5 @@
-﻿using DataStructures.LinkedList.SinglyLinkedList;
+﻿using DataStructures.LinkedList.DoublyLinkedList;
+using DataStructures.LinkedList.SinglyLinkedList;
 using System.Collections;
 
 namespace Apps
@@ -6,6 +7,25 @@ namespace Apps
     internal class Program
     {
         static void Main(string[] args)
+        {
+
+        }
+
+        private static void DbLinkedListApp()
+        {
+            var list = new DoublyLinkedList<int>();
+            list.AddFirst(1);
+            list.AddFirst(2);
+
+            list.AddLast(11);
+            list.AddLast(22);
+
+            list.AddAfter(list.Head.Next, new DoublyLinkedListNode<int>(13));
+
+            Console.WriteLine();
+        }
+
+        private static void SinglyLinkedListApp()
         {
             var linkedList = new SinglyLinkedList<int>();
             linkedList.AddFirst(1);
