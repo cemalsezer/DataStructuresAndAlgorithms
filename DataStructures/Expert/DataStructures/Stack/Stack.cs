@@ -33,7 +33,7 @@ namespace DataStructures.Stack
 
         public void Push(T value)
         {
-            return.Push(value);
+            stack.Push(value);
         }
     }
     public interface IStack<T>
