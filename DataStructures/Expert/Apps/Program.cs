@@ -11,6 +11,35 @@ namespace Apps
 
         }
 
+        private static void QueueApp()
+        {
+            var numbers = new int[] { 10, 20, 30 };
+            var q1 = new DataStructures.Queue.Queue<int>();
+            var q2 = new DataStructures.Queue.Queue<int>(DataStructures.Queue.QueueType.LinkedList);
+
+            foreach (int num in numbers)
+            {
+                Console.WriteLine(num);
+                q1.EnQueue(num);
+                q2.EnQueue(num);
+            }
+
+            Console.WriteLine($"q1 Count: {q1.Count}");
+            Console.WriteLine($"q2 Count: {q2.Count}");
+
+            Console.WriteLine($"q1 Peek: {q1.Peek()}");
+            Console.WriteLine($"q2 Peek: {q2.Peek()}");
+
+            Console.WriteLine($"q1 DeQueue: {q1.DeQueue()} has been removed from q1");
+            Console.WriteLine($"q2 DeQueue: {q2.DeQueue()} has been removed from q2");
+
+            Console.WriteLine($"q1 Count: {q1.Count}");
+            Console.WriteLine($"q2 Count: {q2.Count}");
+
+            Console.WriteLine($"q1 Peek: {q1.Peek()}");
+            Console.WriteLine($"q2 Peek: {q2.Peek()}");
+        }
+
         private static void StackApp()
         {
             var charset = new char[] { 'a', 'b', 'c', 'd', 'e' };
