@@ -10,6 +10,7 @@ namespace DataStructures.LinkedList.DoublyLinkedList
     {
         public DoublyLinkedListNode<T> Head { get; set; }
         public DoublyLinkedListNode<T> Tail { get; set; }
+        private bool isHeadNull=>Head == null;
 
         public void AddFirst(T value)
         {
@@ -79,5 +80,25 @@ namespace DataStructures.LinkedList.DoublyLinkedList
                 Tail = newNode;
             }
         }
+        public T RemoveFirst()
+        {
+            if (isHeadNull)
+                throw new Exception("The linked list is empty!");
+
+            var temp = Head.Value;
+            if (Head==Tail)
+            {
+                Head = null;
+                Tail = null;
+            }
+            else
+            {
+                Head = Head.Next;
+                Head.Prev = null;
+            }
+
+            return temp;
+        }
+
     }
 }

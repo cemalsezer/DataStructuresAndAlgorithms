@@ -61,5 +61,16 @@ namespace DataStructures.LinkedList.SinglyLinkedList
             }
             throw new ArgumentException("The reference node is not in this list.");
         }
+        public T RemoveFirst()
+        {
+           if (isHeadNull)
+           {
+                throw new Exception("Linked list is empty!");
+           }
+           var firstValue = Head.Value;
+           Head = Head.Next;
+           return firstValue;
+        }
+
     }
 }
