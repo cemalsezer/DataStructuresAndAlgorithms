@@ -23,5 +23,47 @@ namespace DataStructures.Tree.BinarySearchTree
         {
             
         }
+        public void Add(T value)
+        {
+            if(value ==null)
+            {
+                throw new ArgumentNullException();
+            }
+            var newNode = new Node<T>(value);
+            if(Root == null)
+            {
+                Root = newNode;
+            }
+            else
+            {
+                var current = Root;
+                Node<T> parent;
+                while(true)
+                {
+                    parent = current;
+                    //Sol-alt ağaç
+                    if(value.CompareTo(current.Value)<0)
+                    {
+                        current = current.Left;
+                        if(current==null)
+                        {
+                            parent.Left = newNode;
+                            break;
+                        }
+                    }
+                    //Sağ-alt ağaç
+                    else
+                    {
+                        current=current.Right;
+                        if(current==null)
+                        {
+                            parent.Right= newNode;
+                            break;
+                        }
+
+                    }
+                }
+            }
+        }
     }
 }
