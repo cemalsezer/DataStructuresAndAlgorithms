@@ -23,6 +23,13 @@ namespace DataStructures.Tree.BinarySearchTree
         {
             
         }
+        public BinarySearchTree(IEnumerable<T> collection)
+        {
+            foreach(var item in collection)
+            {
+                Add(item);
+            }
+        }
         public void Add(T value)
         {
             if(value ==null)
