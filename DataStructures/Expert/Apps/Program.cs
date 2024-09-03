@@ -10,6 +10,14 @@ namespace Apps
     {
         static void Main(string[] args)
         {
+            var BST = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+            var bt = new BinaryTree<int>();
+
+            bt.InOrder(BST.Root).ForEach(node => Console.Write($"{node,-3} "));
+
+            Console.WriteLine();
+            bt.InOrderNonRecursiveTraversal(BST.Root)
+                .ForEach(node => Console.Write($"{node,-3} "));
         }
 
         private static void PostOrderApp()
