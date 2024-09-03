@@ -23,5 +23,26 @@ namespace DataStructures.Tree.BinaryTree
             }
             return list;
         }
+        public List<Node<T>> PreOrder(Node<T> root)
+        {
+            if (!(root == null))
+            {
+                list.Add(root);
+                PreOrder(root.Left);
+                PreOrder(root.Right);
+            }
+            return list;
+        }
+        public List<Node<T>> PostOrder(Node<T> root)
+        {
+            if (!(root == null))
+            {
+                PostOrder(root.Left);
+                PostOrder(root.Right);
+                list.Add((Node<T>)root);
+            }
+            return list;
+        }
+        public void ClearList() => list.Clear();
     }
 }

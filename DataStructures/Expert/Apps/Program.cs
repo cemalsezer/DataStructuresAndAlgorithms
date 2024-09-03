@@ -10,12 +10,39 @@ namespace Apps
     {
         static void Main(string[] args)
         {
+        }
 
+        private static void PostOrderApp()
+        {
+            var BST = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+            var bt = new BinaryTree<int>();
+
+            bt.InOrder(BST.Root).ForEach(node => Console.Write($"{node,-3} "));
+
+            Console.WriteLine();
+            bt.ClearList();
+
+            bt.PreOrder(BST.Root).ForEach(node => Console.Write($"{node,-3} "));
+
+            Console.WriteLine();
+            bt.ClearList();
+
+            bt.PostOrder(BST.Root).ForEach(node => Console.Write($"{node,-3} "));
+        }
+
+        private static void PreOrderApp()
+        {
+            var BST = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+            new BinaryTree<int>().InOrder(BST.Root).ForEach(node => Console.Write(node + " "));
+
+            Console.WriteLine();
+
+            new BinaryTree<int>().PreOrder(BST.Root).ForEach(node => Console.Write(node + " "));
         }
 
         private static void InOrderApp()
         {
-            var BST = new BinarySearchTree<int>(new int[] { 3, 16, 22, 23, 37, 45, 99 });
+            var BST = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
             new BinaryTree<int>().InOrder(BST.Root).ForEach(node => Console.Write(node + " "));
         }
 
