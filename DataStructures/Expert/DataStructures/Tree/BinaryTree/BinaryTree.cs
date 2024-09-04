@@ -62,6 +62,30 @@ namespace DataStructures.Tree.BinaryTree
             }
             return list;
         }
+        public List<Node<T>> PreOrderNonRecursiveTraversal(Node<T> root)
+        {
+            var list = new List<Node<T>>();
+            var S = new DataStructures.Stack.Stack<Node<T>>();
+            if(root == null)
+            {
+                return list;
+            }
+            S.Push(root);
+            while (!(S.Count == 0))
+            {
+                var temp = S.Pop();
+                list.Add(temp);
+                if (temp.Right != null)
+                {
+                    S.Push(temp.Right);
+                }
+                if (temp.Left != null)
+                {
+                    S.Push(temp.Left);
+                }
+            }
+            return list;
+        }
         public List<Node<T>> PostOrder(Node<T> root)
         {
             if (!(root == null))
