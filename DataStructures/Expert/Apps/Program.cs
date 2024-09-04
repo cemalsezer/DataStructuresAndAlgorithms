@@ -10,7 +10,19 @@ namespace Apps
     {
         static void Main(string[] args)
         {
-            FindMinAndMaxValue();
+
+        }
+
+        private static void FindOperationWithBST()
+        {
+            var BST = new BinarySearchTree<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+            new BinaryTree<int>().InOrder(BST.Root).ForEach(node => Console.Write(node + " "));
+            Console.WriteLine();
+
+            Console.WriteLine($"Minimum value :{BST.FindMin(BST.Root)}");
+            Console.WriteLine($"Maximum value :{BST.FindMax(BST.Root)}");
+            var keyNode = BST.Find(BST.Root, 16);
+            Console.WriteLine($"{keyNode.Value} - Left: {keyNode.Left} - Rigt :{keyNode.Right}");
         }
 
         private static void FindMinAndMaxValue()
