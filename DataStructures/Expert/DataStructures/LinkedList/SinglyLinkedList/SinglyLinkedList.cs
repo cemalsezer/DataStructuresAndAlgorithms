@@ -8,19 +8,19 @@ namespace DataStructures.LinkedList.SinglyLinkedList
 {
     public class SinglyLinkedList<T>
     {
-        public SinglyLindkedListNode<T> Head{ get; set; }
+        public SinglyLinkedListNode<T> Head{ get; set; }
         public bool isHeadNull => Head == null;
 
         public void AddFirst(T value)
         {
-            var newNode= new SinglyLindkedListNode<T>(value);
+            var newNode= new SinglyLinkedListNode<T>(value);
             newNode.Next = Head;
             Head = newNode;
         }
 
         public void AddLast(T value)
         {
-            var newNode = new SinglyLindkedListNode<T>(value);
+            var newNode = new SinglyLinkedListNode<T>(value);
             if(Head == null)
             {
                 Head= newNode;
@@ -35,7 +35,7 @@ namespace DataStructures.LinkedList.SinglyLinkedList
             current.Next = newNode;
         }
 
-        public void AddAfter(SinglyLindkedListNode<T> node, T value)
+        public void AddAfter(SinglyLinkedListNode<T> node, T value)
         {
             if(node == null)
             {
@@ -47,7 +47,7 @@ namespace DataStructures.LinkedList.SinglyLinkedList
                 return;
             }
 
-            var newNode = new SinglyLindkedListNode<T>(value);
+            var newNode = new SinglyLinkedListNode<T>(value);
             var current = Head;
             while (current.Next != null)
             {

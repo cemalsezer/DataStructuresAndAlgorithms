@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataStructures.LinkedList.SinglyLinkedList
 {
-    public class SinglyLindkedListNode<T>
+    public class SinglyLinkedListNode<T>
     {
-        public SinglyLindkedListNode<T> Next { get; set; }
+        public SinglyLinkedListNode<T> Next { get; set; }
         public T Value { get; set; }
 
-        public SinglyLindkedListNode(T value)
+        public SinglyLinkedListNode(T value)
         {
             Value = value;
         }
