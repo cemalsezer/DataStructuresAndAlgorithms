@@ -3,4 +3,4 @@
 
 ## Certificates
 
-- [My Intro DSA Certificate](./certificates/cert-1.pdf)
+- [My Intro DSA Certificate](Certificates/cert-1.pdf)
